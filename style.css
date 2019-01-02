@@ -1,0 +1,42 @@
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	background-image: url('./images/flower.jpeg');
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-attachment: fixed;
+}
+
+.container {
+	background-image: url(./images/div_back.jpg);
+	opacity: 0.5;
+	width: 25cm;
+	text-align: left;
+	padding: 1cm;
+	margin-left: 5cm;
+	margin-right: 5cm;
+}
+
+.heading {
+	text-align: center;
+	color:black;
+	padding-top: .5cm;
+	border-bottom: 1px solid red;
+	width: 15cm;
+	margin-left: 5cm;
+}
+
+.question{
+	width: 20cm;
+	color: black;
+}
+
+.center-image {
+	width: 90%;
+	height: 60%;
+	margin-left: 1.3cm;
+	margin-right: 1.3cm;
+}
+
+a:hover {
+	color: brown
+}
