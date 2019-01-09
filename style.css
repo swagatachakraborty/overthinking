@@ -2,39 +2,40 @@ body {
 	font-family:Arial, Helvetica, sans-serif;
 	background-image: url('./images/flower.jpeg');
 	background-repeat: no-repeat;
-	background-position: center; 
+	/* background-position: center;  */
 	background-attachment: fixed;
 }
 
-.container {
-	background-image: url(./images/div_back.jpg);
-	opacity: 0.5;
+.main {
+	position: relative;
 	width: 25cm;
-	text-align: left;
 	padding: 1cm;
-	margin-left: 5cm;
-	margin-right: 5cm;
+	margin: 0 auto;
+}
+
+.background-image {
+	position: absolute;
+	opacity: 0.3;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
 }
 
 .heading {
 	text-align: center;
 	color:black;
-	padding-top: .5cm;
+	width: 600px;
+	margin: auto;
 	border-bottom: 1px solid red;
-	width: 15cm;
-	margin-left: 5cm;
-}
-
-.question{
-	width: 20cm;
-	color: black;
 }
 
 .center-image {
-	width: 90%;
-	height: 60%;
-	margin-left: 1.3cm;
-	margin-right: 1.3cm;
+	text-align: center;
+}
+
+.center-image img {
+	width: 800px;
+	height: 400px;
 }
 
 a:hover {
